@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  text-align: center;
+  background-color: hsl(185, 75%, 39%);
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 18px;
+  overflow: hidden;
+}
+
+p {
+  margin: 0;
+}
+
+hr{
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.card {
+  width: 375px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  height: 375px;
+  background-color: white;
+  margin: 100px auto;
+  border-radius: 20px;
+  z-index: 1;
+
+}
+
+.card-content {
+  width: 375px;
+  height: 375px;
+}
+
+.top-card {
+  background-image: url(images/bg-pattern-card.svg);
+  background-size: cover;
+  height: 140px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.middle-card {
+  margin: 50px 0 0 0;
+}
+
+
+.propic {
+  border-radius: 50%;
+  position: relative;
+  top: 75px;
+  border: 10px solid white;
+  overflow: hidden;
+}
+
+.name {
+  display: inline-block;
+  margin: 0;
+  font-weight: 700;
+  color: hsl(229, 23%, 23%);
+}
+.age {
+  display: inline-block;
+  margin: 15px auto 0 auto;
+}
+
+.city {
+  margin-top: 10px;
+}
+
+.numbers {
+  margin: 0 25px;
+  display: inline-block;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.info-1 {
+  position: relative;
+  display: inline-block;
+  font-weight: 400;
+  right: 45px;
+}
+
+.info-2 {
+  display: inline-block;
+  font-weight: 400;
+  position: relative;
+  right: 12px;
+
+}
+
+.info-3 {
+  margin: 0 auto;
+  display: inline-block;
+  font-weight: 400;
+  position: relative;
+  left: 37px;
+}
+
+.bg-top {
+  background-image: url(images/bg-pattern-top.svg);
+  transform: translate(-50%, -50%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 928px;
+  height: 928px;
+  position: absolute;
+  top: 48px;
+  left: 320px;
+  z-index: -1;
+}
+.bg-bottom {
+  background-image: url(images/bg-pattern-bottom.svg);
+  bottom: -3rem;
+  right: 20rem;
+  transform: translate(50%, 50%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 58rem;
+  height: 58rem;
+  position: absolute;
+  z-index: -1;
+}
